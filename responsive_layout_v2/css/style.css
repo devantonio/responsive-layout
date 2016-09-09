@@ -303,6 +303,12 @@ a:hover {
   padding: 5px 10px;
 }
 
+@-moz-document url-prefix() {
+  .col-3{
+    clear: right;
+  }
+}/*clear collapse in grid for moz*/
+
 .col-7 {
   clear: left;
 }
